@@ -679,7 +679,7 @@ describe('broccoli/ember-app', function() {
           expect(inputTree).to.deep.equal(['blazorz']);
           expect(options).to.deep.equal({
             overwrite: true,
-            annotation: 'TreeMerger (lint)'
+            annotation: 'lint'
           });
 
           assertionsWereRun = true;
